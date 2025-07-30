@@ -101,3 +101,11 @@ InitTestScene*.unity*
 # Unity auto-generated folders
 [Ll]ibrary/
 [Pp]ackageCache/
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Bb]uild/
+UserSettings/
+**/[Pp]ackageCache/
