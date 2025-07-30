@@ -2,28 +2,30 @@
 
 public class PlayerController : MonoBehaviour
 {
-    public float forwardSpeed = 5f;
-    public float laneDistance = 2f;
-    private int currentLane = 0;
+    public float moveSpeed = 5f;
+    public float jumpForce = 7f;
+    private Rigidbody rb;
+
+    void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+    }
 
     void Update()
     {
-        // Move the player forward along the Z axis at constant speed
-        transform.Translate(Vector3.forward * forwardSpeed * Time.deltaTime);
+        float h = Input.GetAxis("Horizontal"); // A-D or Left-Right
+        float v = Input.GetAxis("Vertical");   // W-S or Up-Down
 
-        // Handle input: move left if not already at the leftmost lane
-        if (Input.GetKeyDown(KeyCode.LeftArrow) && currentLane > -1)
-            currentLane--;
+        Vector3 move = new Vector3(h, 0, v) * moveSpeed;
+        Vector3 newVel = new Vector3(move.x, rb.velocity.y, move.z);
+        rb.velocity = newVel;
 
-        // Handle input: move right if not already at the rightmost lane
-        if (Input.GetKeyDown(KeyCode.RightArrow) && currentLane < 1)
-            currentLane++;
+        if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
+            rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+    }
 
-        // Calculate target X position based on current lane (-1, 0, or 1)
-        Vector3 targetPos = new Vector3(currentLane * laneDistance, transform.position.y, transform.position.z);
-
-        // Smoothly interpolate the player's X position toward the target
-        transform.position = Vector3.Lerp(transform.position, targetPos, Time.deltaTime * 10);
-
+    bool IsGrounded()
+    {
+        return Physics.Raycast(transform.position, Vector3.down, 1.1f);
     }
 }

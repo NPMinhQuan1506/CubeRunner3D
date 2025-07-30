@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\aaa\\CubeRunner3D\\CubeRuner3D\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7F187918-72BF-6CBD-AFD2-C36CF43D36F8}|Assembly-CSharp.csproj|c:\\users\\pc\\desktop\\aaa\\cuberunner3d\\cuberuner3d\\assets\\scripts\\groundspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F187918-72BF-6CBD-AFD2-C36CF43D36F8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\groundspawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F187918-72BF-6CBD-AFD2-C36CF43D36F8}|Assembly-CSharp.csproj|c:\\users\\pc\\desktop\\aaa\\cuberunner3d\\cuberuner3d\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F187918-72BF-6CBD-AFD2-C36CF43D36F8}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -31,19 +35,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "GroundSpawner.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\aaa\\CubeRunner3D\\CubeRuner3D\\Assets\\Scripts\\GroundSpawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GroundSpawner.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\aaa\\CubeRunner3D\\CubeRuner3D\\Assets\\Scripts\\GroundSpawner.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GroundSpawner.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T08:10:54.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\aaa\\CubeRunner3D\\CubeRuner3D\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\aaa\\CubeRunner3D\\CubeRuner3D\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABFAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAkwB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T09:53:01.83Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }
