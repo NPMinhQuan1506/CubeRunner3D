@@ -105,7 +105,12 @@ InitTestScene*.unity*
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Ll]ogs/
 [Bb]uild/
 UserSettings/
+Logs/
+MemoryCaptures/
 **/[Pp]ackageCache/
+.vs/
+*.csproj
+*.sln
+*.user
